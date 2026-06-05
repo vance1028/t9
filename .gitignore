@@ -1,43 +1,26 @@
 # Dependencies
 node_modules/
-vendor/
-.venv/
-venv/
-__pycache__/
-*.pyc
 
 # Build output
 dist/
-build/
-out/
-.next/
-target/
 
-# Environment & secrets
-.env
-.env.*
-!.env.example
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 
 # Logs
 *.log
-logs/
+npm-debug.log*
 
-# Coverage & test
-coverage/
-.nyc_output/
-htmlcov/
+# OS files
+.DS_Store
+Thumbs.db
 
-# Temp
-tmp/
-.tmp/
-*.tmp
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Vite
+*.local
